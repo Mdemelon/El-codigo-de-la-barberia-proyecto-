@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href = "CSS/Estilo_de_Inicio.css">
+    <link rel="stylesheet" href = "/Assets/css/Estilo_de_Inicio.css">
     <title>Sitio web </title>
 </head>
 <body>
     <div class="contenedor">
-        <img src="img/Imagen_logo.png" alt="Farhion hair">
+        <img src="/Assets/img/Imagen_logo.png" alt="Farhion hair">
         <h1>Fashion hair</h1>
     </div>
 

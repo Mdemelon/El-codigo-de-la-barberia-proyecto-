@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href = "CSS/Estilo_de_Inicio.css">
+    <link rel="stylesheet" href ="/Assets/css/Estilo_de_Inicio.css">
     <title>Sitio web </title>
 </head>
 <body>
@@ -12,7 +12,7 @@
 
     <!-- Parte de la imagen del logo de la barberia y el nombre de la barberia  -->
     <div class="lado-izquierdo">
-        <img src="img/Imagen_logo.png" alt="Fashion Hair">
+        <img src="/Assets/img/Imagen_logo.png" alt="Fashion Hair">
         <h1>Fashion hair</h1>
     </div>
 
