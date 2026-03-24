@@ -8,6 +8,7 @@
     <title>Sitio web </title>
 </head>
 <body>
+    
     <div class="contenedor">
 
     <!-- Parte de la imagen del logo de la barberia y el nombre de la barberia  -->
@@ -24,13 +25,15 @@
         <form action="validar.php" method="POST">
             <input type="email" name="correo" placeholder="Correo" required>
             <input type="password" name="password" placeholder="Contraseña" required>
-
+             <p><a href="Registros_de_usuarios.php">¿Olvidates tu Contraseña?</a></p>
             <button type="submit">Iniciar Sesión</button>
         </form>
-
+        
         <p>¿No tienes una cuenta? <a href="Registros_de_usuarios.php">Regístrate</a></p>
+
     </div>
 
 </div>
+
 </body>
 </html>

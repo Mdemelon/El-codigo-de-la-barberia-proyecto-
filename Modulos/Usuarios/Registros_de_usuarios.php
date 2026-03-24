@@ -8,6 +8,7 @@
     <title>Sitio web </title>
 </head>
 <body>
+    
     <div class="contenedor lado-izquierdo">
             <img src="/Assets/img/Imagen_logo.png" alt="Farhion hair">
             <h1>Fashion hair</h1>

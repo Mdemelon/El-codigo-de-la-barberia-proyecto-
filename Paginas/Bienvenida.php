@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <div class="top-bar">✂ Barbería Unisex | Estilo para todos</div>
+    <div class="top-bar"> ✂ Barbería Unisex | Estilo para todos</div>
     <header>
 
     <a href="Bienvenida.php" class="brand">
@@ -20,20 +20,10 @@
 
     <div class="brand-name">
         <span class="main">Fashion Hair</span>
-        <span class="sub">Barbería · Unisex</span>
+        <span class="sub">Barbería · Unisex</span>    
     </div>
-
-</a>
-
-    <nav>
-        <a href="#">Servicios</a>
-        <a href="#">Galería</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Contacto</a>
-        <a href="Inicio.php" class="btn-sesion">Iniciar Sesión</a>
-    </nav>
-
-</header>
+    </a>
+    </header>
 
 <section class="hero">
 
@@ -56,7 +46,7 @@
     <a href="../Modulos/Usuarios/Inicio.php" class="btn-primary-custom">
     Iniciar Sesión
     </a>
-
+    
     <a href="#servicios" class="btn-outline-custom">
     Ver Servicios
     </a>
