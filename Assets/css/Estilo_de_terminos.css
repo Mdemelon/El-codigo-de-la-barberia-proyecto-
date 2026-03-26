@@ -1,0 +1,21 @@
+body {
+    background-color: #fcfcfc;
+}
+
+.bg-custom-red {
+    background-color: #e63946;
+}
+
+.text-custom-red {
+    color: #e63946;
+}
+
+/* Scroll personalizado */
+.overflow-y-auto::-webkit-scrollbar {
+    width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}

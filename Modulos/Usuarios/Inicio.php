@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href ="/Assets/css/Estilo_de_Inicio.css">
+    <link rel="stylesheet" href ="/Assets/css/Predeterminado.css">
     <title>Sitio web </title>
 </head>
 <body>
-    
+<div class="rectangle">
     <div class="contenedor">
-
     <!-- Parte de la imagen del logo de la barberia y el nombre de la barberia  -->
     <div class="lado-izquierdo">
         <img src="/Assets/img/Imagen_logo.png" alt="Fashion Hair">
@@ -25,15 +25,18 @@
         <form action="validar.php" method="POST">
             <input type="email" name="correo" placeholder="Correo" required>
             <input type="password" name="password" placeholder="Contraseña" required>
-             <p><a href="Registros_de_usuarios.php">¿Olvidates tu Contraseña?</a></p>
+             <p><a href="/Paginas/Recuperacion_de_contrasena.php">¿Olvidates tu Contraseña?</a></p>
             <button type="submit">Iniciar Sesión</button>
         </form>
         
-        <p>¿No tienes una cuenta? <a href="Registros_de_usuarios.php">Regístrate</a></p>
+        <p>¿No tienes una cuenta? <a href ="Registros_de_usuarios.php">Regístrate</a></p>
 
     </div>
 
 </div>
+</div>
+
+<div class="footer-line"></div>
 
 </body>
 </html>

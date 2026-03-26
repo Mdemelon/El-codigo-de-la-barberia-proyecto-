@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 50px; /* espacio entre logo y caja */
+}
+
+/* Lado izquierdo con logo */
+.lado-izquierdo {
+    width: 40%;
+    text-align: center;
+}
+
+.lado-izquierdo img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.lado-izquierdo h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Caja de verificación */
+.inicio-box {
+    width: 350px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.inicio-box p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Inputs del código */
+.code-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.code-inputs input {
+    width: 40px;
+    height: 50px;
+    font-size: 22px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botones */
+.botones {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.botones button {
+    flex: 1;
+    padding: 10px;
+    background: #ff0000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
