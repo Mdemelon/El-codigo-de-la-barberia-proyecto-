@@ -33,10 +33,18 @@ body{
     text-align:center;
 }
 
-.ininio-box input{
+.ininio-box input, .ininio-box button{
     width:100%;
     padding:10px;
     margin:10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+.ininio-box input:focus {
+    border: 2px solid #000;
 }
 
 .ininio-box button{

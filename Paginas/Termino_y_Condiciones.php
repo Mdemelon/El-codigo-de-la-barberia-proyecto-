@@ -1,75 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href = "/Assets/css/Estilo_de_terminos.css">
-    <title>Sitio web </title>
+  <meta charset="UTF-8">
+  <title>Términos y Condiciones</title>
+  <link rel="stylesheet" href="../Assets/css/Estilo_de_Terminos.css">
 </head>
-<body class="min-h-screen flex flex-col font-sans">
+<body>
+<div class="contenedor">
 
-    <div class="flex-grow flex flex-col md:flex-row items-center justify-center p-6 gap-12 max-w-7xl mx-auto">
-        
-        <div class="w-full md:w-2/5 space-y-6 text-center md:text-left">
-            <div class="flex justify-center md:justify-start">
-                <img src="../Assets/img/Imagen_logo.png" alt="Logo Fashion Hair" class="h-32">
-            </div>
-            
-            <h1 class="text-4xl md:text-5xl font-bold leading-tight text-gray-800">
-                Tu estilo, <span class="text-custom-red">nuestro compromiso.</span>
-            </h1>
-            
-            <p class="text-gray-600 text-lg">
-                Antes de comenzar tu transformación en Fashion Hair, revisa y acepta nuestros lineamientos.
-            </p>
-        </div>
+  <!-- Lado izquierdo -->
+  <div class="lado-izquierdo">
+    <img src="../Assets/img/Imagen_logo.png" alt="Logo Fashion Hair">
+    <h2>Tu estilo, nuestro compromiso.</h2>
+    <p>Antes de comenzar tu transformación en Fashion Hair, por favor revisa y acepta nuestros lineamientos de servicio para garantizarte la mejor experiencia.</p>
 
-        <div class="w-full md:w-3/5 bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
-            
-            <div class="bg-red-50 p-6 text-center border-b border-red-100">
-                <h2 class="text-2xl font-bold text-gray-800">Términos y Condiciones</h2>
-                <p class="text-sm text-gray-500">Última actualización: 24 de Marzo, 2026</p>
-            </div>
+    <div class="iconos">
+      <div class="icono">Seguro</div>
+      <div class="icono">Personal</div>
+      <div class="icono">Transparente</div>
+    </div>
+  </div>
 
-            <div class="p-8 max-h-[500px] overflow-y-auto">
-                <p class="text-gray-600 text-sm">
-                    Aquí van tus términos y condiciones...
-                </p>
-            </div>
+  <!-- Lado derecho -->
+  <div class="lado-derecho">
+    <h2>Términos y Condiciones</h2>
+    <p class="fecha">Última actualización: 5 de Marzo, 2026</p>
 
-            <form action="procesar.php" method="POST" class="p-8 bg-gray-50 border-t border-gray-100">
-                <div class="flex items-start gap-3 mb-6">
-                    <input type="checkbox" id="terms" name="acepto" required class="mt-1 w-4 h-4 accent-red-600 cursor-pointer">
-                    <label for="terms" class="text-sm text-gray-700 cursor-pointer">
-                        <span class="font-bold text-gray-900">He leído y acepto los términos.</span>
-                    </label>
-                </div>
-                
-                <button type="submit" id="submitBtn" disabled class="w-full py-4 bg-gray-300 text-gray-500 font-bold rounded-xl cursor-not-allowed">
-                    Aceptar y continuar
-                </button>
-            </form>
-        </div>
+    <div class="terminos-box">
+      <h3>1. Aceptación del Servicio</h3>
+      <p>Al acceder a los servicios de Fashion Hair Barbería, usted acepta cumplir con estos términos...</p>
+
+      <h3>2. Política de Citas y Cancelaciones</h3>
+      <p>Las citas deben ser confirmadas con 2 horas de antelación...</p>
+
+      <h3>3. Privacidad y Datos Personales</h3>
+      <p>Su información personal se utiliza exclusivamente para la gestión de citas...</p>
+
+      <h3>4. Responsabilidad del Cliente</h3>
+      <p>Es responsabilidad del cliente informar sobre alergias...</p>
     </div>
 
-    <div class="h-3 bg-custom-red w-full"></div>
+    <div class="aceptar">
+      <input type="checkbox" id="acepto" required>
+      <label for="acepto">He leído y acepto los términos y condiciones de servicio.</label>
+    </div>
 
-    <script>
-        const checkbox = document.getElementById('terms');
-        const submitBtn = document.getElementById('submitBtn');
+    <button class="btn-aceptar">Aceptar y continuar</button>
+  </div>
 
-        checkbox.addEventListener('change', function() {
-            if (this.checked) {
-                submitBtn.disabled = false;
-                submitBtn.classList.remove('bg-gray-300', 'text-gray-500', 'cursor-not-allowed');
-                submitBtn.classList.add('bg-custom-red', 'text-white');
-            } else {
-                submitBtn.disabled = true;
-                submitBtn.classList.add('bg-gray-300', 'text-gray-500', 'cursor-not-allowed');
-                submitBtn.classList.remove('bg-custom-red', 'text-white');
-            }
-        });
-    </script>
+</div>
 </body>
 </html>

@@ -14,17 +14,24 @@ body{
 .lado-izquierdo{
     width:40%;
     text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .lado-izquierdo img{
-    width:100px;
-    max-width: 100%;
+    width:150px;
+    max-width: 35%;
+    width: auto;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
     .lado-izquierdo img {
-        width: 80px;
+        max-width: 100px;
     }
 }
 
@@ -36,7 +43,7 @@ body{
     border-radius:10px;
     box-shadow:0px 5px 15px rgba(0,0,0,0.2);
     position: absolute;
-    top: 340px;
+    top: 78px;
     right: 220px;
 }
 
@@ -48,6 +55,9 @@ body{
     width:100%;
     padding:10px;
     margin:10px 0;
+    border: 1px solid #ddd;
+    border-radius:5px;
+    box-sizing: border-box;
 }
 
 .ininio-box button{
@@ -58,7 +68,13 @@ body{
     border:none;
     border-radius:5px;
     cursor:pointer;
+    font-weight: bold;
 }
+
+.ininio-box button:hover{
+    background: #c62828;
+}
+
 
 .hero {
     position: relative;
@@ -99,9 +115,32 @@ body{
 .terminos {
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin: 15px 0;
-  font-size: 14px;
+  gap: 1px;
+  margin: 10px 0;
+  font-size: 16px;
   text-align: left;
+  white-space: nowrap;
+  }
+
+
+.terminos input [type="checkbox"] {
+    margin-top: 2px;
+    width: 18px;
+    height: 18px;
+    accent-color: #e53935;
+    cursor: pointer;
 }
 
+.terminos label {
+    color: #333;
+}
+
+.terminos a {
+    color: #e53935;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.terminos a:hover {
+    text-decoration: underline;
+}

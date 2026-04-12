@@ -1,21 +1,130 @@
 body {
-    background-color: #fcfcfc;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
 }
 
-.bg-custom-red {
-    background-color: #e63946;
+.contenedor {
+  display: flex;
+  min-height: 100vh;
 }
 
-.text-custom-red {
-    color: #e63946;
+/* Lado izquierdo */
+.lado-izquierdo {
+  flex: 1;
+  background: #fff;
+  padding: 40px;
+  text-align: center;
+  border-right: 1px solid #ddd;
 }
 
-/* Scroll personalizado */
-.overflow-y-auto::-webkit-scrollbar {
-    width: 6px;
+.lado-izquierdo img {
+  max-width: 150px;
+  margin-bottom: 20px;
 }
 
-.overflow-y-auto::-webkit-scrollbar-thumb {
-    background-color: #f1f1f1;
-    border-radius: 10px;
+.lado-izquierdo h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.lado-izquierdo p {
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.iconos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icono {
+  background: #e53935;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+/* Lado derecho */
+.lado-derecho {
+  flex: 2;
+  background: #fff;
+  padding: 40px;
+}
+
+.lado-derecho h2 {
+  color: #e53935;
+  margin-bottom: 5px;
+}
+
+.fecha {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.terminos-box {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.terminos-box h3 {
+  margin-top: 20px;
+  color: #e53935;
+}
+
+.terminos-box p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Checkbox */
+.aceptar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.aceptar input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #e53935;
+}
+
+/* Botón */
+.btn-aceptar {
+  background: #ccc;
+  color: #333;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.btn-aceptar:hover {
+  background: #999;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+  }
+  .lado-izquierdo, .lado-derecho {
+    width: 100%;
+    border: none;
+  }
+  .lado-derecho {
+    border-top: 1px solid #eee;
+  }
 }

@@ -27,12 +27,14 @@
             <input type="password" name="password" placeholder="Contraseña" required>
             <input type="password" name="password" placeholder="Confirmar la Contraseña" required>
 
-            <label>
-                <div class="terminos">
+            
+            <div class="terminos">
                 <input type="checkbox" id="Terminos"required> 
-                Acepta los <a href="/Paginas/Termino_y_Condiciones.php" terget="Estilo_de_Inicio">Terminos y condiciones</a>
-                </div>
-            </label>
+                <label for="Terminos">
+                    Acepta los  <a href="/Paginas/Termino_y_Condiciones.php" target="_blank">Terminos y condiciones</a>
+                </label>
+            </div>
+        
 
             <button type="submit">Crear Cuenta</button>
         </form>

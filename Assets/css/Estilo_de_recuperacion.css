@@ -14,12 +14,12 @@ body{
 
 /* lado izquierdo (logo + nombre) */
 .lado-izquierdo{
-    width:40%;
+    width:35%;
     text-align:center;
 }
 
 .lado-izquierdo img{
-    width:150px;
+    width:180px;
 }
 
 .lado-izquierdo h1{
