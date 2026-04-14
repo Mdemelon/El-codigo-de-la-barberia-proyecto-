@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href = "/Assets/css/Estilo_de_Registro.css">
-    <link rel="stylesheet" href = "/Assets/css/Predeterminado.css">
+    <link rel="stylesheet" href = "../../Assets/css/Estilo_de_Registro.css">
+    <link rel="stylesheet" href = "../../Assets/css/Predeterminado.css">
 
     <title>Sitio web </title>
 </head>
 <body>
 <div class="rectangle">
     <div class="contenedor lado-izquierdo">
-            <img src="/Assets/img/Imagen_logo.png" alt="Farhion hair">
+            <img src="../../Assets/img/Imagen_logo.png" alt="Farhion hair">
             <h1>Fashion hair</h1>
     </div>
 
@@ -31,7 +31,7 @@
             <div class="terminos">
                 <input type="checkbox" id="Terminos"required> 
                 <label for="Terminos">
-                    Acepta los  <a href="/Paginas/Termino_y_Condiciones.php" target="_blank">Terminos y condiciones</a>
+                    Acepta los  <a href="../../Paginas/Termino_y_Condiciones.php" target="_blank">Terminos y condiciones</a>
                 </label>
             </div>
         

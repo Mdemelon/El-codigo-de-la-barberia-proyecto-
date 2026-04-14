@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restablecer Contraseña</title>
-    <link rel="stylesheet" href="../Assets/css/Estilo_de_Cambios.css">
-    <link rel="stylesheet" href="../Assets/css/Predeterminado.css">
+    <link rel="stylesheet" href="../../Assets/css/Estilo_de_Cambios.css">
+    <link rel="stylesheet" href="../../Assets/css/Predeterminado.css">
 </head>
 <body>
 <div class="container">
     <!-- Lado izquierdo con logo -->
     <div class="left-panel">
-        <img src="/Assets/img/Imagen_logo.png" alt="Logo Fashion Hair">
+        <img src="../../Assets/img/Imagen_logo.png" alt="Logo Fashion Hair">
         <h1>Fashion Hair Barbería Unisex</h1>
     </div>
 
@@ -32,7 +32,7 @@
             </div>
 
             <div class="buttons">
-                <a href="../Paginas/Enviar_de_codigo.php" class="btn back">Atrás</a>
+                <a href="../../Paginas/Enviar_de_codigo.php" class="btn back">Atrás</a>
                 <button type="submit" class="btn confirm">Confirmar</button>
             </div>
         </form>

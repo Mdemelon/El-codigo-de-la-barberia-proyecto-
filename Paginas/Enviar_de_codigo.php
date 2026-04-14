@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href ="../Assets/css/Estilo_de_verificacion.css">
-    <link rel="stylesheet" href ="../Assets/css/Predeterminado.css">
+    <link rel="stylesheet" href ="../../Assets/css/Estilo_de_verificacion.css">
+    <link rel="stylesheet" href ="../../Assets/css/Predeterminado.css">
     <title>Sitio web </title>
 </head>
 <body>
@@ -19,7 +19,7 @@
 
     <div class="inicio-box">
         <p>Ingrese el codigo de varificacion</p>
-        <form action="/Config/Validacion_de_codigo.php" method="post">
+        <form action="../../Config/Validacion_de_codigo.php" method="post">
             <div class="code-inputs">
                 <input type="text" name="digit1" maxlength="1" required>
                 <input type="text" name="digit2" maxlength="1" required>

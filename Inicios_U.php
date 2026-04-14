@@ -12,7 +12,7 @@ $cancelaciones = 0;
 <head> 
     <meta charset="UTF-8">
     <title>Dashboard Cliente</title>
-    <link rel="stylesheet" href="../Assets/css/Estilo_de_inicio_U.css">
+    <link rel="stylesheet" href="../../Assets/css/Estilo_de_U.css">
 </head>
 <body>
 
@@ -20,7 +20,7 @@ $cancelaciones = 0;
 
     <div class="sidebar">
         <div class="logo">
-            <img src="../Assets/img/imagen_logo.png" alt="Logo Fashion Hair">
+            <img src="../../Assets/img/imagen_logo.png" alt="Logo Fashion Hair">
             <h2>Fashion hair</h2>
         </div>
 

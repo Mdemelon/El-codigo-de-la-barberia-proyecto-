@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Términos y Condiciones</title>
-  <link rel="stylesheet" href="../Assets/css/Estilo_de_Terminos.css">
+  <link rel="stylesheet" href="../../Assets/css/Estilo_de_Terminos.css">
 </head>
 <body>
 <div class="contenedor">
 
   <!-- Lado izquierdo -->
   <div class="lado-izquierdo">
-    <img src="../Assets/img/Imagen_logo.png" alt="Logo Fashion Hair">
+    <img src="../../Assets/img/Imagen_logo.png" alt="Logo Fashion Hair">
     <h2>Tu estilo, nuestro compromiso.</h2>
     <p>Antes de comenzar tu transformación en Fashion Hair, por favor revisa y acepta nuestros lineamientos de servicio para garantizarte la mejor experiencia.</p>
 

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href ="../Assets/css/Estilo_de_recuperacion.css">
-    <link rel="stylesheet" href ="../Assets/css/Predeterminado.css">
+    <link rel="stylesheet" href ="../../Assets/css/Estilo_de_recuperacion.css">
+    <link rel="stylesheet" href ="../../Assets/css/Predeterminado.css">
     <title>Sitio web </title>
 </head>
 <body>
@@ -14,7 +14,7 @@
     <div class="contenedor">
 
     <div class="lado-izquierdo">
-        <img src="../Assets/img/Imagen_logo.png">
+        <img src="../../Assets/img/Imagen_logo.png">
         <h1>Fashion hair</h1>
     </div>
 
@@ -29,8 +29,8 @@
             </div>
 
             <div class="botones">
-                <button type="button" onclick="window.location.href='../Modulos/Usuarios/Registros_de_usuarios.php'">Atrás</button>
-                <button type="button" onclick="window.location.href='Enviar_de_codigo.php'">Enviar</button>
+                <button type="button" onclick="window.location.href='../../Modulos/Usuarios/Registros_de_usuarios.php'">Atrás</button>
+                <button type="button" onclick="window.location.href='../../Paginas/Enviar_de_codigo.php'">Enviar</button>
             </div>
 
 

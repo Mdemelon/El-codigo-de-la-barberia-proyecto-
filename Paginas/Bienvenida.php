@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion Hair – Barbería Unisex</title>
-    <link rel="stylesheet" href="..Assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Assets/css/Estilo_de_bienvenoda.css">
+    <link rel="stylesheet" href="../../Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../Assets/css/Estilo_de_bienvenoda.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,7 +16,7 @@
 
     <a href="Bienvenida.php" class="brand">
 
-    <img src="../Assets/img/Imagen_logo.png" alt="Logo Fashion Hair">
+    <img src="../../Assets/img/Imagen_logo.png" alt="Logo Fashion Hair">
 
     <div class="brand-name">
         <span class="main">Fashion Hair</span>
@@ -43,7 +43,7 @@
 
 <div class="cta-group">
 
-    <a href="../Modulos/Usuarios/Inicio.php" class="btn-primary-custom">
+    <a href="../../Modulos/Usuarios/Inicio.php" class="btn-primary-custom">
     Iniciar Sesión
     </a>
     
